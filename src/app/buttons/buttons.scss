@@ -1,0 +1,24 @@
+
+#button{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    direction: rtl;
+    height: 6vh;
+    width: 84vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    background-color: rgb(10, 9, 24);
+}
+
+#button span,#button div{
+    border: solid 2px rgb(233, 225, 210);
+    border-radius: 20px;
+    height: 3vh;
+    display: grid;
+    place-content: center;
+    width: 120px;
+    color: rgb(233, 225, 210);
+}

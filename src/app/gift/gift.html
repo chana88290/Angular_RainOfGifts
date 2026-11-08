@@ -1,0 +1,12 @@
+<div [style.background-color]="myGift.color" 
+     [style.width.vh] = "myGift.size" 
+     [style.height.vh] = "myGift.size" 
+     [style.margin-left.vw] = "myGift.x"
+     [style.margin-top.vh] = "myGift.y()"
+     style="border-radius: 10px;"
+     (click) = "click()">
+
+     {{myGift.size}}
+
+</div>
+
